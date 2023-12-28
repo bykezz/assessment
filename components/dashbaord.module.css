@@ -1,0 +1,243 @@
+.dashbaordChild {
+  position: absolute;
+  height: 55.03%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 44.97%;
+  left: 0;
+  background-color: var(--black);
+  box-shadow: var(--low-shadow);
+}
+.frameIcon,
+.notification1Icon {
+  position: relative;
+  width: 31px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.notification1Icon {
+  width: 32px;
+}
+.frameParent {
+  position: absolute;
+  height: 21.48%;
+  width: 9.93%;
+  top: 16.78%;
+  right: 19.55%;
+  bottom: 61.74%;
+  left: 70.52%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.dashbaordItem {
+  position: absolute;
+  height: 44.97%;
+  width: 100%;
+  top: 55.03%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-white);
+  box-shadow: var(--low-shadow);
+}
+.releaseNote {
+  position: relative;
+}
+.infoCircle1Parent {
+  position: absolute;
+  height: 16.11%;
+  width: 8.13%;
+  top: 19.46%;
+  right: 46.18%;
+  bottom: 64.43%;
+  left: 45.69%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.component2Icon {
+  position: absolute;
+  height: 28.19%;
+  width: 12.08%;
+  top: 17.45%;
+  right: 82.5%;
+  bottom: 54.36%;
+  left: 5.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray);
+  width: 148px;
+  height: 38px;
+}
+.home1Icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.dashboard {
+  position: relative;
+  font-weight: 600;
+}
+.home1Parent {
+  position: absolute;
+  top: 7px;
+  left: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.rectangleParent {
+  position: relative;
+  width: 148px;
+  height: 38px;
+  color: var(--black);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--main-white);
+  width: 148px;
+  height: 38px;
+}
+.location1Parent {
+  position: absolute;
+  top: 7px;
+  left: 33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.rectangleGroup {
+  position: relative;
+  width: 148px;
+  height: 38px;
+}
+.activity1Parent,
+.groupParent,
+.profile1Parent,
+.wallet1Parent {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.activity1Parent,
+.groupParent,
+.wallet1Parent {
+  left: 32px;
+}
+.activity1Parent,
+.groupParent {
+  left: 35px;
+}
+.groupParent {
+  height: 25.5%;
+  width: 65.14%;
+  top: 64.43%;
+  right: 29.44%;
+  bottom: 10.07%;
+  left: 5.42%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--deep-gray);
+}
+.component9,
+.groupChild3 {
+  position: absolute;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+}
+.component9 {
+  height: 26.85%;
+  width: 9.65%;
+  top: 14.09%;
+  right: 32.85%;
+  bottom: 59.06%;
+  left: 57.5%;
+  background-color: var(--main-purple);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-149xl);
+  gap: var(--gap-9xs);
+  color: var(--main-white);
+}
+.groupChild3 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--gray);
+  border: 1px solid var(--light-gray);
+}
+.search1Icon {
+  position: absolute;
+  height: 55.81%;
+  width: 7.52%;
+  top: 20.93%;
+  right: 3.76%;
+  bottom: 23.26%;
+  left: 88.71%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.searchPropertiesCustomer {
+  position: absolute;
+  top: 32.56%;
+  left: 5.02%;
+  font-weight: 300;
+}
+.rectangleParent3 {
+  position: absolute;
+  height: 28.86%;
+  width: 22.15%;
+  top: 63.09%;
+  right: 5.42%;
+  bottom: 8.05%;
+  left: 72.43%;
+  font-size: var(--type-face-b8-regular-size);
+  color: var(--semi-gray);
+}
+.dashbaord {
+  width: 1440px;
+  height: 149px;
+  text-align: left;
+  font-size: var(--type-face-b7-regular-size);
+  color: var(--gray1);
+  font-family: var(--type-face-b7-regular);
+}
